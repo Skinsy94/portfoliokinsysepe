@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Kinsy</title>
+  <meta name="description" content="Portfolio BTS SIO SISR - Réseaux, Systèmes, Projets, Stages, Veille" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="Retour en haut">Kinsy</a>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Ouvrir le menu</span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#profil">Présentation</a></li>
+        <li><a href="#stages">Stages</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#veille">Veille technologique</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="section hero hero2" id="accueil">
+      <div class="container hero2__grid">
+        <div class="hero2__left">
+          <div class="hero2__kicker">
+            <span class="pill">BTS SIO • SISR</span>
+            <span class="pill pill--soft">Portfolio</span>
+          </div>
+
+          <h1 class="hero2__title">
+            Bienvenue sur le portfolio de <span class="hero2__accent">Kinsy Sepe</span>.<br />
+            <span class="hero2__title2">Étudiante en BTS SIO option SISR.</span>
+          </h1>
+
+          <p class="hero2__subtitle">
+            <!-- Mets une phrase ici si tu veux -->
+          </p>
+
+          <div class="hero2__cta">
+            <a class="btn btn--primary" href="#contact">Me contacter</a>
+            <a class="btn btn--ghost" href="#" download>Télécharger mon CV</a>
+          </div>
+
+          <div class="hero2__quick">
+            <div class="quickcard">
+              <p class="quickcard__label">Localisation</p>
+              <p class="quickcard__value">📍 Vitry-sur-Seine</p>
+            </div>
+            <div class="quickcard">
+              <p class="quickcard__label">Spécialités</p>
+              <p class="quickcard__value">Réseau • Systèmes • Cybersécurité</p>
+            </div>
+            <div class="quickcard">
+              <p class="quickcard__label">Profil</p>
+              <p class="quickcard__value">Esprit d'équipe • Autonome • Force de proposition</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- (optionnel) colonne droite, tu peux laisser vide -->
+        <aside class="hero2__right"></aside>
+      </div>
+    </section>
+
+    <!-- PROFIL (PLEINE LARGEUR) -->
+    <section class="section" id="profil">
+      <div class="container">
+        <header class="section__header">
+          <h2>Présentation</h2>
+          <p class="muted">Qui suis-je + parcours académique</p>
+        </header>
+
+        <!-- ✅ prend toute la largeur -->
+        <article class="card profile-full">
+          <h3>Présentation</h3>
+          <p>
+            Je suis actuellement étudiante en BTS SIO option SISR au lycée du parc de Vilgénis à Massy.
+            Je développe des compétences en administration systèmes et réseaux, avec un intérêt particulier pour la cybersécurité.
+          </p>
+
+          <div class="divider"></div>
+
+          <h3>Parcours académique</h3>
+
+          <!-- ✅ frise chronologique propre -->
+          <div class="timeline">
+            <!-- Item 1 -->
+            <article class="timeline__item">
+              <div class="timeline__rail" aria-hidden="true">
+                <span class="timeline__dot"></span>
+              </div>
+
+              <div class="timeline__card">
+                <div class="timeline__top">
+                  <p class="timeline__date">2024 – 2026</p>
+                  <span class="timeline__badge timeline__badge--info">En cours</span>
+                </div>
+
+                <h4 class="timeline__title">BTS SIO • Option SISR</h4>
+                <p class="timeline__desc muted">
+                  • Administration systèmes (Windows/Linux)<br />
+                  • Réseaux, virtualisation<br />
+                  • Projets d’infrastructure<br />
+                  • Cybersécurité
+                </p>
+
+                <div class="timeline__tags">
+                  <span class="chip">Windows Server</span>
+                  <span class="chip">Linux</span>
+                  <span class="chip">Cisco</span>
+                  <span class="chip">Proxmox</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 2 (non obtenu) -->
+            <article class="timeline__item is-hidden" data-status="not-validated">
+              <div class="timeline__rail" aria-hidden="true">
+                <span class="timeline__dot timeline__dot--warn"></span>
+              </div>
+
+              <div class="timeline__card">
+                <div class="timeline__top">
+                  <p class="timeline__date">2021 – 2023</p>
+                  <span class="timeline__badge timeline__badge--warn">Non obtenu</span>
+                </div>
+
+                <h4 class="timeline__title">BTS Communication • Option digitale</h4>
+
+                <div class="timeline__tags">
+                  <span class="chip">Création de contenu</span>
+                  <span class="chip">Community management</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 3 (non achevée) -->
+            <article class="timeline__item is-hidden" data-status="not-finished">
+              <div class="timeline__rail" aria-hidden="true">
+                <span class="timeline__dot timeline__dot--warn"></span>
+              </div>
+
+              <div class="timeline__card">
+                <div class="timeline__top">
+                  <p class="timeline__date">2020 – 2021</p>
+                  <span class="timeline__badge timeline__badge--warn">Non achevée</span>
+                </div>
+
+                <h4 class="timeline__title">DUT Technique de commercialisation</h4>
+                <p class="timeline__desc muted">
+                  Formation polyvalente dans les domaines de la vente, du marketing et de la gestion.
+                </p>
+
+                <div class="timeline__tags">
+                  <span class="chip">Négociation</span>
+                  <span class="chip">Relation client</span>
+                  <span class="chip">Marketing</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Item 4 -->
+            <article class="timeline__item">
+              <div class="timeline__rail" aria-hidden="true">
+                <span class="timeline__dot"></span>
+              </div>
+
+              <div class="timeline__card">
+                <div class="timeline__top">
+                  <p class="timeline__date">2020</p>
+                  <span class="timeline__badge timeline__badge--ok">Diplôme validé</span>
+                </div>
+
+                <h4 class="timeline__title">Bac Économique et Social</h4>
+
+                <div class="timeline__tags">
+                  <span class="chip">Sciences politiques</span>
+                  <span class="chip">Mention assez bien</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="timeline__actions">
+            <button class="btn btn--ghost" type="button" data-timeline-toggle aria-expanded="false">
+              Afficher les formations non validées / non achevées
+            </button>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>Outils</h3>
+          <div class="chips">
+            <span class="chip">Windows Server</span>
+            <span class="chip">Linux</span>
+            <span class="chip">Cisco</span>
+            <span class="chip">Proxmox</span>
+            <span class="chip">GLPI</span>
+            <span class="chip">Wireshark</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- STAGES -->
+    <section class="section" id="stages">
+      <div class="container">
+        <header class="section__header">
+          <h2>Stages</h2>
+          <p class="muted">Présentation de mes deux entreprises</p>
+        </header>
+
+        <div class="grid-2">
+          <article class="card stage-card">
+            <div class="stage-head">
+              <!-- ✅ Logo -->
+              <img class="stage-logo" src="assets/logos/oliphant.png" alt="Logo Oliphant" />
+              <div>
+                <h3>Oliphant</h3>
+                <p class="muted small">Du 2 juin au 4 juillet 2025 • Bures-sur-Yvette</p>
+              </div>
+            </div>
+
+            <h4>À propos</h4>
+
+            <p>Oliphant est une entrprise qui fait de la maintenance informatique, de l'imprimerie et de la communication.</p>
+
+            <h4>Missions principales</h4>
+            <ul class="list">
+              <li>Modification du site internet</li>
+              <li>Mise en place de postes de travail</li>
+            </ul>
+
+            <h4>Technos / outils</h4>
+            <div class="chips">
+              <span class="chip">Windows</span>
+              <span class="chip">WordPress</span>
+            </div>
+          </article>
+
+          <article class="card stage-card">
+            <div class="stage-head">
+              <!-- ✅ Logo -->
+              <img class="stage-logo" src="assets/logos/ba-conseil.png" alt="Logo B&A Conseil" />
+              <div>
+                <h3>B&amp;A Conseil</h3>
+                <p class="muted small">Du 17 novembre au 19 décembre 2025 • Coignières</p>
+              </div>
+            </div>
+
+            <h4>À propos</h4>
+
+            <p>B&A conseil est une entreprise de conseil informatique, elle accompagne les organisations dans leurs enjeux informatique.</p>
+
+            <h4>Missions principales</h4>
+            <ul class="list">
+              <li>Déploiement d'applications mobiles</li>
+              <li>Support utilisateur</li>
+              <li>Planification et gestion de réunions</li>
+            </ul>
+
+            <h4>Technos / outils</h4>
+            <div class="chips">
+              <span class="chip">Miradore</span>
+              <span class="chip">Teams</span>
+              <span class="chip">Speek</span>
+              <span class="chip">Unyc</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section" id="projets">
+      <div class="container">
+        <header class="section__header">
+          <h2>Projets</h2>
+          <p class="muted">Accordéons</p>
+        </header>
+
+        <div class="accordion" data-accordion>
+          <details class="card" open>
+            <summary>
+              <span class="mono">Déploiement site CMS</span>
+              <span class="muted">Projet 1ère année</span>
+            </summary>
+            <div class="details__content">
+              <h4>Objectifs</h4>
+              <ul class="list">
+                <li>Déployer un site web dans une architecture virtuelle sous GNS3 tout en garantissant la sécurité des échanges provenant de l'extérieur vers le site.</li>
+                <li>SPIP</li>
+              </ul>
+            </div>
+
+            <div class="chips">
+              <span class="chip">Mettre à disposition des utilisateurs un service informatique</span>
+            </div>
+          </details>
+
+          <details class="card">
+            <summary>
+              <span class="mono">Supervision d'un serveur Proxmox</span>
+              <span class="muted">Projet 2e année</span>
+            </summary>
+            <div class="details__content">
+              <h4>Objectifs</h4>
+              <ul class="list">
+                <li>Superviser les métrics du serveur proxmox</li>
+                <li>Assurer la disponibilité des services</li>
+                <li>Détecter les incidents rapidement</li>
+                <li>Anticiper les incidents</li>
+              </ul>
+            </div>
+            <div class="chips">
+              <span class="chip">Gérer le patrimoine informatique</span>
+            </div>
+          </details>
+
+          <details class="card">
+            <summary>
+              <span class="mono">Mise en place du PRA et de sauvegardes pour une infrastructure réseau</span>
+              <span class="muted">Projet 2e année</span>
+            </summary>
+            <div class="details__content">
+              <h4>Objectifs</h4>
+              <ul class="list">
+                <li>Assurer une reprise des activitées efficace</li>
+                <li>Protection contre les pertes de données</li>
+              </ul>
+            </div>
+            <div class="chips">
+              <span class="chip">Gérer le patrimoine informatique</span>
+            </div>
+          </details>
+
+    
+
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <header class="section__header">
+          <h2>Certifications</h2>
+          <p class="muted">Preuves & attestations PDF</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Certification SecNum Académie</h3>
+            <p class="muted">ANSSI • 2025</p>
+            <a class="btn btn--primary" href="assets/certifications/secnum-anssi-2025.pdf" target="_blank" rel="noopener">Voir</a>
+          </article>
+
+          <article class="card">
+            <h3>Certification Pix</h3>
+            <p class="muted">Pix • 2026</p>
+            <a class="btn btn--primary" href="assets/certifications/pix-2026.pdf" target="_blank" rel="noopener">Voir</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VEILLE -->
+    <section class="section" id="veille">
+      <div class="container veille">
+        <header class="section__header">
+          <h2>Veille technologique</h2>
+          <p class="muted">Outils • Sujet • Articles</p>
+        </header>
+
+        <article class="veille__panel">
+          <h3 class="veille__title">Ma veille technologique et mes outils</h3>
+          <p class="veille__text">
+            Pour effectuer ma veille technologique, j’utilise <strong>Google Alertes</strong>
+            et je complète avec des sources fiables (ANSSI, Le Monde Informatique, ...).
+          </p>
+
+          <div class="veille__chips">
+            <span class="chip">Google Alertes</span>
+            <span class="chip">ANSSI</span>
+            <span class="chip">Le Monde Informatique</span>
+            <span class="chip">Flux RSS : Freedly</span>
+          </div>
+        </article>
+
+        <div class="veille__sep" aria-hidden="true"></div>
+
+        <article class="veille__panel">
+          <h3 class="veille__title">Mon sujet de veille</h3>
+          <p class="veille__text">
+            Pour ma veille technologique j’ai choisi :
+            <strong>Le contournement de l'authentification multifacteur (MFA) par phishing avancé dans Microsoft 365.</strong>
+          </p>
+
+          <div class="veille__two">
+            <div class="veille__box">
+              <h4>Résumé</h4>
+              <p class="muted">
+                Le sujet porte sur le contournement de l’authentification multifacteur (MFA) dans Microsoft 365 par des techniques de phishing avancé.
+                Le MFA ajoute une seconde preuve d’identité, mais des attaques (proxy phishing, vol de cookies, MFA fatigue) peuvent contourner la protection.
+              </p>
+            </div>
+
+            <div class="veille__box">
+              <h4>Mots-clés</h4>
+              <div class="veille__chips">
+                <span class="chip">Phishing MFA</span>
+                <span class="chip">MFA bypass Microsoft 365</span>
+                <span class="chip">Azure AD token theft</span>
+                <span class="chip">MFA fatigue</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="veille__sep" aria-hidden="true"></div>
+
+        <article class="veille__panel">
+          <h3 class="veille__title">Contournement MFA : c’est quoi ?</h3>
+
+        
+        <p>Le contournement du MFA (Multi-Factor Authentication) désigne l’ensemble des techniques permettant à un attaquant d’accéder à un compte protégé par une double authentification sans réellement “casser” le système de sécurité. Dans le contexte de Microsoft 365, ces attaques visent les comptes professionnels utilisés pour accéder aux services comme la messagerie, le stockage ou les outils collaboratifs.</p>
+         
+
+        <p>Le MFA fonctionne normalement en deux étapes : l’utilisateur saisit son mot de passe, puis valide un second facteur d’authentification (code reçu par SMS, notification sur application mobile, clé de sécurité physique, etc.). Une fois ces deux étapes validées, le système génère un jeton de session (token) permettant l’accès aux services sans redemander l’authentification à chaque action.</p>
+
+        <p>Les attaques modernes ne cherchent pas à deviner le code MFA, mais à intercepter la session authentifiée. Par exemple, via un phishing avec proxy (outil comme Evilginx), l’attaquant crée un faux site de connexion Microsoft qui relaie en temps réel les informations vers le vrai site. La victime saisit son mot de passe et valide son MFA normalement. Le système considère l’authentification comme légitime et génère un cookie de session… que l’attaquant récupère et réutilise pour se connecter à la place de la victime. Le MFA est donc techniquement respecté, mais détourné.
+
+</p>    <h3 class="veille__title">Les acteurs</h3>
+          <p>Les principaux acteurs concernés sont l’utilisateur (cible du phishing), l’administrateur système chargé de sécuriser l’environnement, l’éditeur du service (Microsoft), et les cybercriminels. Les composants techniques impliqués comprennent le compte d’identité (Entra ID / Azure AD), le mot de passe, le second facteur, le jeton OAuth ou cookie de session, ainsi que les politiques d’accès conditionnel et les journaux d’audit.</p>
+
+
+       <h3 class="veille__title">Un exemple concret :</h3>
+          <p>Un salarié reçoit un email imitant Microsoft lui demandant de vérifier son compte. Il clique sur le lien frauduleux, entre ses identifiants et valide la notification MFA sur son téléphone. L’attaquant récupère alors le cookie de session et accède à la messagerie de l’entreprise pour voler des données sensibles ou préparer une attaque plus large.</p>
+
+          <h3 class="veille__title">Pourquoi ce sujet en SISR ?</h3>
+          <p>Ce sujet est essentiel en SISR car il touche directement à l’administration des identités, à la sécurisation des accès cloud et à la gestion des politiques de sécurité. Comprendre ces mécanismes permet de mettre en place des solutions plus robustes comme le MFA résistant au phishing (FIDO2, passkeys), l’accès conditionnel avancé et une surveillance efficace des connexions suspectes.</p>
+        </article>
+      </div>
+    </section>
+
+<!-- Mes articles -->
+<section class="veille__panel">
+  <div class="articles__head">
+    <h3 class="veille__title">Quelques articles</h3>
+
+    <!-- barre de tri -->
+    <div class="articles__sort" aria-label="Trier les articles">
+      <span class="muted small">Trier par</span>
+      <a class="sort__btn is-active" href="#veille">Auteur</a>
+      <a class="sort__btn" href="#veille">Date</a>
+      <a class="sort__btn" href="#veille">Journal</a>
+      <a class="sort__btn" href="#veille">Note</a>
+    </div>
+  </div>
+
+  <div class="articles__grid">
+    <!-- Article 1 -->
+    <div class="article__img">
+  <img src="assets/articles/article1.jpg" alt="Aperçu article 1">
+</div>
+
+
+
+      <div class="article__body">
+        <h4 class="article__title">Phishing : tout comprendre des kits de contournement de la MFA</h4>
+        <p class="article__meta">
+          <span><strong>Auteur :</strong> Nom</span>
+          <span><strong>Date :</strong> 12/06/2025</span>
+          <span><strong>Journal :</strong> LeMagIT</span>
+          <span><strong>Note :</strong></span>
+        </p>
+
+        <p class="muted article__resume">
+          Cet article explique comment comprendre les kits de contournement de la MFA.
+        </p>
+
+        <a class="btn btn--primary article__link"
+       href="https://www.lemagit.fr/conseil/Phishing-tout-comprendre-des-kits-de-contournement-de-la-MFA"
+       target="_blank"
+       rel="noopener noreferrer">
+       Lire l’article
+    </a>
+      </div>
+    </article>
+
+    <!-- Article 2 -->
+   <div class="article__img">
+  <img src="assets/articles/article2.png" alt="Aperçu article 2">
+</div>
+
+
+
+      <div class="article__body">
+        <h4 class="article__title">Phishing : tout comprendre des kits de contournement de la MFA</h4>
+        <p class="article__meta">
+          <span><strong>Auteur :</strong>Shweta Sharma, IDG NS (adaptation Jean Elyan)</span>
+          <span><strong>Date :</strong> 05/08/2025</span>
+          <span><strong>Journal :</strong> Le Monde Informatique</span>
+          <span><strong>Note :</strong></span>
+        </p>
+
+        <p class="muted article__resume">
+          Cet article explique comment les pirates contournent la MFA en falsifiant des apps OAuth de Microsoft.
+        </p>
+
+        <a class="btn btn--primary article__link"
+       href="https://www.lemondeinformatique.fr/actualites/lire-pour-contourner-le-mfa-des-pirates-falsifient-des-apps-oauth-de-microsoft-97593.html"
+       target="_blank"
+       rel="noopener noreferrer">
+       Lire l’article
+    </a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section__header">
+          <h2>Contact</h2>
+          <p class="muted">Formulaire de contact & documents</p>
+        </header>
+
+        <div class="grid-2">
+          <form class="card" id="contact-form">
+            <label>
+              Nom
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+
+            <button class="btn btn--primary" type="submit">Envoyer</button>
+            <p class="muted small" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+         <aside class="card">
+  <h3>Coordonnées</h3>
+  <ul class="list">
+    <li>
+      🔗 
+      <a href="https://www.linkedin.com/in/kinsy-sepe/"
+         target="_blank"
+         rel="noopener noreferrer">
+         LinkedIn
+      </a>
+    </li>
+  </ul>
+
+  <div class="divider"></div>
+
+  <h3>Documents</h3>
+  <ul class="list">
+      📊 
+      <a href="assets/Documents/Tableau-de-synthese.pdf"
+         target="_blank"
+         rel="noopener">
+         Voir le tableau de synthèse
+      </a>
+    </li>
+  </ul>
+</aside>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <p>© <span id="year"></span> • Portfolio</p>
+      <a class="muted" href="#top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- ✅ Toggle timeline (cacher/afficher formations non validées) -->
+  <script>
+    (() => {
+      const btn = document.querySelector("[data-timeline-toggle]");
+      const items = document.querySelectorAll('.timeline__item.is-hidden');
+
+      if (!btn || !items.length) return;
+
+      const hide = () => {
+        items.forEach(i => i.style.display = "none");
+        btn.setAttribute("aria-expanded", "false");
+        btn.textContent = "Afficher les formations non validées / non achevées";
+      };
+
+      const show = () => {
+        items.forEach(i => i.style.display = "");
+        btn.setAttribute("aria-expanded", "true");
+        btn.textContent = "Masquer les formations non validées / non achevées";
+      };
+
+      hide();
+      btn.addEventListener("click", () => {
+        const expanded = btn.getAttribute("aria-expanded") === "true";
+        expanded ? hide() : show();
+      });
+    })();
+  </script>
+</body>
+</html>
